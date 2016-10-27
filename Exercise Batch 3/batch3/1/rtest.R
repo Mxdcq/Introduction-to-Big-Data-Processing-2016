@@ -1,0 +1,7 @@
+args = commandArgs(trailingOnly=TRUE)
+dl = unlist(read.table(args[1], header=FALSE), use.names=FALSE)
+cat(sprintf("Miminum: %f\n", min(dl)))
+cat(sprintf("Maximum: %f\n", max(dl)))
+cat(sprintf("Average: %f\n", mean(dl)))
+cat(sprintf("Median: %f\n", median(dl)))
+cat(sprintf("Variance: %f\n", var(dl)*(length(dl)-1)/length(dl)))
