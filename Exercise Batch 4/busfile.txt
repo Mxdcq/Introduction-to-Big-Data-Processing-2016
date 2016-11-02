@@ -1,0 +1,3 @@
+-rw-r--r--   2 test07 supergroup   41122479 2016-10-18 23:19 /user/student/busfiles/busdata_single_line.json
+
+hdfs dfs -ls /user/student/test07/4_1
